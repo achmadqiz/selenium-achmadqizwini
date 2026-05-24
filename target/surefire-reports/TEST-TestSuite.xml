@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="43.384" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\acer\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\acer\Downloads\selenium-achmadqiz\target\test-classes;C:\Users\acer\Downloads\selenium-achmadqiz\target\classes;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-java\4.4.0\selenium-java-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-api\4.4.0\selenium-api-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.4.0\selenium-chrome-driver-4.4.0.jar;C:\Users\acer\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\acer\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\acer\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\acer\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\acer\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\acer\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\acer\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\acer\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\acer\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.4.0\selenium-chromium-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-json\4.4.0\selenium-json-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.4.0\selenium-devtools-v102-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.4.0\selenium-devtools-v103-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.4.0\selenium-devtools-v104-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.4.0\selenium-devtools-v85-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.4.0\selenium-edge-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.4.0\selenium-firefox-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.4.0\selenium-ie-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.4.0\selenium-opera-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.4.0\selenium-remote-driver-4.4.0.jar;C:\Users\acer\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\acer\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-api\1.16.0\opentelemetry-api-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-context\1.16.0\opentelemetry-context-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.16.0\opentelemetry-exporter-logging-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.16.0\opentelemetry-sdk-metrics-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.16.0-alpha\opentelemetry-sdk-logs-1.16.0-alpha.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.16.0\opentelemetry-sdk-common-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.16.0\opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.16.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.16.0\opentelemetry-sdk-trace-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.16.0\opentelemetry-sdk-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.16.0-alpha\opentelemetry-semconv-1.16.0-alpha.jar;C:\Users\acer\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\acer\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\acer\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\acer\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\acer\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\acer\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\acer\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\acer\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-http\4.4.0\selenium-http-4.4.0.jar;C:\Users\acer\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.4.0\selenium-safari-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-support\4.4.0\selenium-support-4.4.0.jar;C:\Users\acer\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\acer\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\acer\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\acer\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\acer\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\acer\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\acer\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\acer\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\acer\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\acer\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\acer\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\acer\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="user.country.format" value="ID"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\acer\AppData\Local\Temp\surefire9169316890045687734\surefirebooter-20260525041942736_3.jar C:\Users\acer\AppData\Local\Temp\surefire9169316890045687734 2026-05-25T04-19-42_550-jvmRun1 surefire-20260525041942736_1tmp surefire_0-20260525041942736_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\acer\Downloads\selenium-achmadqiz\target\test-classes;C:\Users\acer\Downloads\selenium-achmadqiz\target\classes;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-java\4.4.0\selenium-java-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-api\4.4.0\selenium-api-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.4.0\selenium-chrome-driver-4.4.0.jar;C:\Users\acer\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\acer\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\acer\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\acer\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\acer\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\acer\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\acer\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\acer\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\acer\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.4.0\selenium-chromium-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-json\4.4.0\selenium-json-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.4.0\selenium-devtools-v102-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.4.0\selenium-devtools-v103-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.4.0\selenium-devtools-v104-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.4.0\selenium-devtools-v85-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.4.0\selenium-edge-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.4.0\selenium-firefox-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.4.0\selenium-ie-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.4.0\selenium-opera-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.4.0\selenium-remote-driver-4.4.0.jar;C:\Users\acer\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\acer\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-api\1.16.0\opentelemetry-api-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-context\1.16.0\opentelemetry-context-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.16.0\opentelemetry-exporter-logging-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.16.0\opentelemetry-sdk-metrics-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.16.0-alpha\opentelemetry-sdk-logs-1.16.0-alpha.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.16.0\opentelemetry-sdk-common-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.16.0\opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.16.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.16.0\opentelemetry-sdk-trace-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.16.0\opentelemetry-sdk-1.16.0.jar;C:\Users\acer\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.16.0-alpha\opentelemetry-semconv-1.16.0-alpha.jar;C:\Users\acer\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\acer\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\acer\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\acer\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\acer\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\acer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\acer\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\acer\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\acer\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-http\4.4.0\selenium-http-4.4.0.jar;C:\Users\acer\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.4.0\selenium-safari-driver-4.4.0.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-support\4.4.0\selenium-support-4.4.0.jar;C:\Users\acer\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\acer\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\acer\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\acer\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\acer\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\acer\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\acer\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\acer\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\acer\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\acer\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\acer\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\acer\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\acer"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\acer\Downloads\selenium-achmadqiz"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\acer\AppData\Local\Temp\surefire9169316890045687734\surefirebooter-20260525041942736_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+9-LTS-211"/>
+    <property name="user.name" value="acer"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\acer\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\acer\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="C:\Users\acer\Downloads\selenium-achmadqiz"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="id"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\acer\bin;C:\Python314\Scripts;C:\Python314;C:\Users\acer\AppData\Local\Programs\cursor\resources\app\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\msys64\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;C:\Users\acer\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\acer\AppData\Local\Microsoft\WindowsApps\python.exe;C:\Users\acer\AppData\Local\Programs\Python\Python313\python.exe;C:\Windows\py.exe;C:\xampp\php;C:\composer;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\acer\.local\bin\claude.exe;C:\Program Files\PostgreSQL\18\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Go\bin;C:\apache-maven-3.9.16\bin;C:\Program Files\Java\jdk-21.0.11\bin;C:\Users\acer\.local\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\acer\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\acer\AppData\Local\Programs\Python\Python313;C:\Users\acer\.cargo\bin;C:\Users\acer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\acer\AppData\Roaming\Composer\vendor\bin;C:\Users\acer\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1\bin;C:\Users\acer\go\bin;C:\Users\acer\AppData\Local\Programs\Antigravity\bin;C:\Users\acer\AppData\Local\Programs\Zed\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.11+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testLoginPositif" classname="juaracoding.achmadqiz.LoginTest" time="0.615">
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 49719
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 49719.
+Mei 25, 2026 4:19:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:19:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:19:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:19:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginPasswordSalah" classname="juaracoding.achmadqiz.LoginTest" time="0.542">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 59762
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 59762.
+Mei 25, 2026 4:19:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:19:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:19:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:19:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginUsernameTidakTerdaftar" classname="juaracoding.achmadqiz.LoginTest" time="0.546">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 60885
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 60885.
+Mei 25, 2026 4:19:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:19:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:19:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:19:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginAkunTerkunci" classname="juaracoding.achmadqiz.LoginTest" time="0.561">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 56325
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 56325.
+Mei 25, 2026 4:19:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:19:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:19:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:19:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginUsernameKosong" classname="juaracoding.achmadqiz.LoginTest" time="0.509">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 60592
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 60592.
+Mei 25, 2026 4:19:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:19:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:19:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:19:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginPasswordKosong" classname="juaracoding.achmadqiz.LoginTest" time="0.571">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 55400
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 55400.
+Mei 25, 2026 4:19:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:19:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:19:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:19:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginUsernameDanPasswordKosong" classname="juaracoding.achmadqiz.LoginTest" time="0.513">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 56818
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 56818.
+Mei 25, 2026 4:19:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:19:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:19:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:19:58 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginUsernameCaseSensitive" classname="juaracoding.achmadqiz.LoginTest" time="0.537">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 49274
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 49274.
+Mei 25, 2026 4:20:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginPasswordCaseSensitive" classname="juaracoding.achmadqiz.LoginTest" time="0.653">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 63470
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 63470.
+Mei 25, 2026 4:20:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:02 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginUsernameFormatEmailTidakTerdaftar" classname="juaracoding.achmadqiz.LoginTest" time="0.572">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 56434
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 56434.
+Mei 25, 2026 4:20:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddToCartPositif" classname="juaracoding.achmadqiz.AddToCartTest" time="0.779">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 63660
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 63660.
+Mei 25, 2026 4:20:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddToCartNegatifAkunTerkunci" classname="juaracoding.achmadqiz.AddToCartTest" time="2.688">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 61824
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 61824.
+Mei 25, 2026 4:20:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddToCartNegatifTanpaLogin" classname="juaracoding.achmadqiz.AddToCartTest" time="0.238">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 49864
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 49864.
+Mei 25, 2026 4:20:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddDuaProdukKeCart" classname="juaracoding.achmadqiz.AddToCartTest" time="0.956">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 63069
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 63069.
+Mei 25, 2026 4:20:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testRemoveProdukSetelahAddToCart" classname="juaracoding.achmadqiz.AddToCartTest" time="0.921">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 60376
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 60376.
+Mei 25, 2026 4:20:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testProdukTampilDiHalamanCart" classname="juaracoding.achmadqiz.AddToCartTest" time="0.786">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 64358
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 64358.
+Mei 25, 2026 4:20:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:20 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testRemoveSatuDariDuaProduk" classname="juaracoding.achmadqiz.AddToCartTest" time="0.909">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 56096
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 56096.
+Mei 25, 2026 4:20:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCartKosongTanpaAddProduk" classname="juaracoding.achmadqiz.AddToCartTest" time="0.814">
+    <system-err><![CDATA[Starting ChromeDriver 148.0.7778.178 (d096af1c9e98c45c3596e59620622b1a049bfecb-refs/branch-heads/7778@{#3196}) on port 58028
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 58028.
+Mei 25, 2026 4:20:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mei 25, 2026 4:20:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 148, so returning the closest version found: a no-op implementation
+Mei 25, 2026 4:20:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 148.
+Mei 25, 2026 4:20:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
